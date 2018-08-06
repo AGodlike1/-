@@ -1,0 +1,374 @@
+#dynamic{
+    width: 100%;
+    height: 240px;
+    background-color:ghostwhite;
+   flex: 1;
+    overflow: scroll;
+margin: 0 auto;
+position: relative;
+}
+#test1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture1{
+    height: 50px;
+    width: 50px;
+    background:url(../../img/微信图片1_20180802193818.jpg)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle1{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top1{
+    height: 20px;
+    font-weight:600;
+
+}
+#word-bottom1{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+#time1{
+    height: 41px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+
+}
+#test2{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 60px;
+     width: 100%;
+
+ }
+#picture2{
+    height: 50px;
+    width: 50px;
+    background:url(../../img/微信截图_20180802200022.png)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle2{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top2{
+    height: 20px;
+    font-weight:600;
+
+}
+#word-bottom2{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 500;
+    color: red;
+}
+#time2{
+    height: 41px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+#test3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture3{
+    height: 50px;
+    width: 50px;
+    background:url(../../img/微信截图_20180802200022.png)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle3{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top3{
+    height: 20px;
+    font-weight:600;
+
+}
+#word-bottom3{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+#time3{
+    height: 41px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+#test4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture4{
+    height: 50px;
+    width: 50px;
+    background:url(../../img/微信截图_20180802200022.png)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle4{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top4{
+    height: 20px;
+    font-weight:600;
+
+}
+#word-bottom4{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+#time4{
+    height: 41px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+#test5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture5{
+    height: 50px;
+    width: 50px;
+    background:url(../../img/微信截图_20180802200022.png)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle5{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top5{
+    height: 20px;
+    font-weight:600;
+
+}
+#word-bottom5{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+#time5{
+    height: 41px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+#test6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture6{
+    height: 50px;
+    width: 50px;
+    background:url(../../img/微信截图_20180802200022.png)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle6{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top6{
+    height: 20px;
+    font-weight:600;
+
+}
+#word-bottom6{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+#time6{
+    height: 41px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+#test7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture7{
+    height: 50px;
+    width: 50px;
+    background:url(../../img/微信截图_20180802200022.png)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle7{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top7{
+    height: 20px;
+    font-weight:600;
+
+}
+#word-bottom7{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+#time7{
+    height: 41px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+#test8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture8{
+    height: 50px;
+    width: 50px;
+    background:url(微信支付.svg)no-repeat;
+    background-size: 48px 48px;
+    border-radius: 5px;
+    margin: 5px 0 0 3px;
+}
+#middle8{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top8{
+    height: 20px;
+    font-weight:600;
+
+}
+#word-bottom8{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+#time8{
+    height: 41px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+#test9{
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ width: 100%;
+    height: 70px;
+}
+
+#test10{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture10{
+    height: 50px;
+    width: 50px;
+    background:url(../../img/妈妈.jpg)no-repeat;
+    background-size: 50px 75px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle10{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top10{
+    height: 20px;
+    font-weight:600;
+
+}
+#word-bottom10{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: red;
+}
+#time10{
+    height: 41px;
+    width: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+

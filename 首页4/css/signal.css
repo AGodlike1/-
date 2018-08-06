@@ -1,0 +1,140 @@
+#signal{
+    width: 100%;
+    height: 32px;
+    background-color: #2e2e2e;
+    display: flex;
+    color: white;
+    font-weight:400;
+
+    justify-content: space-between;
+
+}
+#signal-left div{   /*代表signal-left里面的每个层，为他们设置属性*/
+
+    margin-left: 4px;
+}
+#signal-left{
+    flex: 1; /*平分空白面积*/
+    display: flex;
+    justify-content:flex-start; /*?？？？？*/
+    align-items: center;
+}
+#signal-center{
+    width: 50px;
+    height: 32px;
+
+}
+#signal-right{
+    flex: 1;  /*平分空白面积 联系上left 即为右边框跟左边框平分除center 之外的空白面积*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#signal-right div {
+    /*margin-right: 4px;*/
+
+}
+/*信号 start*/
+#signal-area{
+    height: 16px;
+    width: 40px;
+    display: flex;
+    align-items: flex-end; /*靠到底部*/
+}
+#signal-area div{
+    width: 4px;
+    /*background-color: white;*/
+    margin-left: 3px;
+    border-radius: 1px;
+
+
+
+}
+#signal-area div:nth-child(1){  /*nth-child(1)代表第一个块）*/
+    height: 7px;}
+#signal-area div:nth-child(2){
+    height: 9px;}
+#signal-area div:nth-child(3){
+    height: 13px;}
+#signal-area div:nth-child(4){
+    height: 16px;}
+.signals-ok{
+    background-color: white;
+}
+.signals-lose{
+    background-color: grey;
+}
+/*信号end*/
+
+
+/*电池 start*/
+#battery {
+    display: flex;
+    align-items: center;
+    flex-flow:  row wrap;
+
+    width: 40px;
+    height: 18px;
+}
+#battery-body{
+    height: 12px;
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 1px;
+
+
+}
+#battery-header{
+    height: 6px;
+    width: 2px;
+    background-color: white;
+    border-radius: 0px 1px 1px 0px;
+}
+#battery-core{
+    height: 10px;
+    width: 26px;
+    background-color: green;
+    margin: 1px;
+}
+@keyframes charge {
+    0%{
+        width: 1px;
+        background: red;
+    }
+    20%{
+        width: 6px;
+        background: yellow;
+    }
+    80%{
+        width: 24px;
+        background: #00A000;
+    }
+    100%{
+        width: 30px;
+        background: grey;
+    }
+
+
+
+}
+.charing{
+    animation: charge 6s linear infinite;
+
+}
+
+
+
+
+/*电池 end*/
+
+/*lock start*/
+#lock{
+    width:25px;
+    height: 20px;
+    margin-right: 7px;
+    background: url(../../img/屏幕锁定.svg) ;
+    background-size: 25px 20px;
+
+}
+/*lock end*/

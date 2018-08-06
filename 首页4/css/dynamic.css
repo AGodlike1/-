@@ -1,0 +1,273 @@
+#dynamic{
+    width: 100%;
+    height: 240px;
+    background-color:ghostwhite;
+    flex: 1;
+    overflow: scroll;
+    margin: 0 auto;
+    position: relative;
+
+}
+#test1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture1{
+    height: 50px;
+    width: 50px;
+    background:url(../img/新的朋友.svg)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle1{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top1{
+    height: 20px;
+    font-weight:600;
+    margin: 10px 0 0 10px ;
+
+}
+#word-bottom1{
+    margin-top: 5px;
+    height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+
+#test2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture2{
+    height: 50px;
+    width: 50px;
+    background:url(../img/群聊.svg)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle2{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top2{
+    height: 20px;
+    font-weight:600;
+    margin: 10px 0 0 10px ;
+
+}
+
+#test3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture3{
+    height: 50px;
+    width: 50px;
+    background:url(../img/微信标签.svg)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle3{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top3{
+    height: 20px;
+    font-weight:600;
+    margin: 10px 0 0 10px ;
+
+}
+
+
+#test4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture4{
+    height: 50px;
+    width: 50px;
+    background:url(../img/公众号图标.svg)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle4{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top4{
+    height: 20px;
+    font-weight:600;
+    margin: 10px 0 0 10px ;
+
+}
+
+
+#test5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture5{
+    height: 50px;
+    width: 50px;
+    background:url(../img/微信图片_1.jpg)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle5{
+    flex: 1;
+    height: 41px;
+    margin: 20px 0 0 8px;
+
+}
+#word-top5{
+    height: 20px;
+    font-weight:600;
+
+}
+
+
+#test6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture6{
+    height: 50px;
+    width: 50px;
+    background:url(../img/2.jpg)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle6{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top6{
+    height: 20px;
+    font-weight:600;
+    margin: 15px 0 0 9px;
+    font-weight: 500;
+
+}
+
+
+#test7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture7{
+    height: 50px;
+    width: 50px;
+    background:url(../img/3.jpg )no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle7{
+    flex: 1;
+    height: 41px;
+    margin: 19px 0 0 10px ;
+
+}
+#word-top7{
+    height: 20px;
+    font-weight:600;
+
+}
+
+
+#test8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+}
+#picture8{
+    height: 50px;
+    width: 50px;
+    background:url(../img/4.jpg)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#middle8{
+    flex: 1;
+    height: 41px;
+
+}
+#word-top8{
+    height: 20px;
+    font-weight:500;
+    margin: 15px 0 0 10px ;
+
+
+}
+
+#test9{
+
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+#picture9{
+    height: 50px;
+    width: 50px;
+    background:url(../img/5.jpg)no-repeat;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+#word-top9{
+    height: 20px;
+    font-weight:500;
+    margin: 15px 0 0 10px ;
+
+
+
